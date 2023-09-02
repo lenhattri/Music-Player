@@ -1,0 +1,9 @@
+var homePaths = require('./path/home_paths');
+
+function initRoutes(app){
+    
+    app.use('/',homePaths);
+     
+}
+
+module.exports = initRoutes;

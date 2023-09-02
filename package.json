@@ -1,0 +1,45 @@
+{
+  "name": "musicplayer",
+  "version": "1.0.0",
+  "description": "This is music app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js localhost 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenhattri/musicApp.git"
+  },
+  "keywords": [
+    "musicplayer",
+    "music",
+    "nhac",
+    "mp3",
+    "nhac",
+    "hay",
+    "be",
+    "xuan",
+    "mai",
+    "lon",
+    "ton"
+  ],
+  "author": "Le Nhat Tri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenhattri/musicApp/issues"
+  },
+  "homepage": "https://github.com/lenhattri/musicApp#readme",
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "fetch": "^1.1.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.9",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "express-handlebars": "^6.0.6"
+  }
+}
